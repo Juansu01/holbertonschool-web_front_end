@@ -1,9 +1,7 @@
 # Advanced CSS
 
 <div>
-    <img src="https://holbertonintranet.s3.amazonaws.com/uploads/medias/2019/12/ce6718f1b55e6c1580c6.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOU5BHMTQX4%2F20220418%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220418T184505Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=28de85b1fec090d96d573e686cca6e5920723a492bdf8573f456e9c6d0ed0dce"
-    alt="Project Image",
-    style="display: block; margin-left: auto; margin-right: auto; width: 50%;"/>
+    <a href="https://ibb.co/R4cNKQ8"><img src="https://i.ibb.co/R4cNKQ8/ce6718f1b55e6c1580c6.jpg" alt="ce6718f1b55e6c1580c6" style="display: block; margin-left: auto; margin-right: auto; width: 50%;" border="0" /></a>
 </div>
 
 ### Learning objectives
