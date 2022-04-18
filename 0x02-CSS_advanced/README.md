@@ -1,6 +1,6 @@
 # Advanced CSS
 
-![Test Image 2](“https://i.ibb.co/KzWDgVn/ce6718f1b55e6c1580c6.jpg”)
+![Test Image 2](../master/images/meme.jpg)
 
 ### Learning objectives
 
