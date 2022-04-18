@@ -1,6 +1,6 @@
 # Advanced CSS
 
-![Test Image 2](../master/images/meme.jpg)
+![Test Image 2](../images/meme.jpg)
 
 ### Learning objectives
 
