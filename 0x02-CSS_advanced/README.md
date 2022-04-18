@@ -1,8 +1,7 @@
 # Advanced CSS
 
 <div>
-    <a href="https://ibb.co/R4cNKQ8"><img src="https://i.ibb.co/R4cNKQ8/ce6718f1b55e6c1580c6.jpg" alt="ce6718f1b55e6c1580c6" style="width: 100%;
-    height: 100%;"/></a>
+    <a href="https://ibb.co/R4cNKQ8"><img src="https://i.ibb.co/R4cNKQ8/ce6718f1b55e6c1580c6.jpg" alt="ce6718f1b55e6c1580c6" style="object-fit: fill;"/></a>
 </div>
 
 ### Learning objectives
