@@ -1,7 +1,7 @@
 # Advanced CSS
 
 <div>
-    <a href="https://ibb.co/R4cNKQ8"><img src="https://i.ibb.co/R4cNKQ8/ce6718f1b55e6c1580c6.jpg" alt="ce6718f1b55e6c1580c6" style="display: block; margin-left: auto; margin-right: auto; width: 50%;" border="0" /></a>
+    <a href="https://ibb.co/R4cNKQ8"><img src="https://i.ibb.co/R4cNKQ8/ce6718f1b55e6c1580c6.jpg" alt="ce6718f1b55e6c1580c6" style="display: block; margin-left: auto; margin-right: auto;" /></a>
 </div>
 
 ### Learning objectives
