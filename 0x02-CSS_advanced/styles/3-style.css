@@ -22,7 +22,7 @@ a {
     color: var(--color-primary);
 }
 
-root {
+:root {
     --color-primary: #D73953;
     --color-black: #090909;
     --color-white: #ffffff;
