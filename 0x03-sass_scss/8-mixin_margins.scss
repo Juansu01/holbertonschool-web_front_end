@@ -1,0 +1,9 @@
+/* Task 8 */
+
+@mixin margins($margin) {
+    margin-left: $margin;
+    margin-right: $margin;
+}
+
+body { @include margins(10px); }
+div { @include margins(15px); }
