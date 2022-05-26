@@ -62,7 +62,7 @@
 
         }
 
-        function deleteCookiesAndRemoveForm() {
+        function deleteCookiesAndShowForm() {
           showForm();
 
           const yesterday = new Date();
@@ -86,7 +86,7 @@
             h1.innerHTML = `Welcome: ${name}`;
             logout.innerHTML = '(logout)'
             logout.style.cssText = "font-style: italic; margin-left: 5px;"
-            logout.addEventListener('click', deleteCookiesAndRemoveForm);
+            logout.addEventListener('click', deleteCookiesAndShowForm);
             div.setAttribute('id', 'welcome-message')
 
             div.append(h1);
@@ -95,6 +95,8 @@
 
           }
         }
+
+        showWelcomeMessageOrForm();
 
     </script>
   </body>
