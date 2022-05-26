@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Task 2</title>
+  </head>
+  <body>
+	<h1>Login to the website</h1>
+    <input id="firstname" placeholder="Firstname">
+    <input id="email" placeholder="Email">
+    <button onclick="setCookies()">Log me in</button>
+    <h1>Cookies</h1>
+    <button onclick="showCookies()">Show the cookies</button>
+
+    <script>
+        function setCookies() {
+            const firstName = document.getElementById('firstname').value;
+            const email = document.getElementById('email').value;
+            const expDate = new Date();
+
+            expDate.setDate(expDate.getDate() + 10);
+
+            if (firstName) {
+                document.cookie = `firstname=${firstName};`
+                document.cookie = `expires=${expDate.toUTCString()};`
+                document.cookie = `path=/`
+            }
+
+            if (email) {
+                document.cookie = `email=${email};`
+                document.cookie = `expires=${expDate.toUTCString()};`
+                document.cookie = `path=/`
+            }
+        }
+
+        function showCookies() {
+            const paragraph = document.createElement('p');
+            paragraph.innerHTML = `Email: ${getCookie('email')} - Firstname: ${getCookie('firstname')}`;
+            document.body.appendChild(paragraph);
+        }
+
+        function getCookie(name) {
+          return document.cookie.match('(^|;)\\s*' + name + '\\s*=\\s*([^;]+)')?.pop() || ''
+        }
+
+    </script>
+  </body>
+</html>
