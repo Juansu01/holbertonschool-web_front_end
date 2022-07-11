@@ -585,6 +585,10 @@
     text-align: center;
   }
 
+  .post-content p:first-child {
+    font-size: var(--font-size-x-large);
+  }
+
 /* Post Meta
     ============================= */
 
